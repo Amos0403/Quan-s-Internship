@@ -1,0 +1,11 @@
+[user]
+	name = Amos Le
+	email = 155905226+Amos0403@users.noreply.github.com
+[core]
+	editor = code --wait
+	autocrlf = true
+[filter "lfs"]
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
