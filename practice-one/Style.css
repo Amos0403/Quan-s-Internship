@@ -1,73 +1,96 @@
 * {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-    font-family: Arial;
-    flex: auto;
-  }
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Arial;
+  flex: auto;
+}
+
+.header-wrapper {
+  background-color: rgb(40, 214, 51);
   
-  #logo-div {
-    width: 100%;
-    min-height: 50px;
-    background-color: lightgray;
-    padding-left: 10px;
-    line-height: 50px;
-    margin-bottom: 10px;
-  }
-  
-  #nav-div {
-    width: 100%;
-    min-height: 50px;
-    background-color: lightgray;
-    text-align: center;
-    line-height: 30px;
-  }
-  
-  #header-banner-div {
-    width: 100%;
-    min-height: 200px;
-    background-color: lightgray;
-    text-align: center;
-    line-height: 100px;
-    margin-bottom: 10px;
-  }
-  
-  #main-div {
-    width: 100%;
-    min-height: 400px;
-    background-color: gray;
-    margin-bottom: 10px;
-  }
-  
-  
-  
-  #bodyarea-div {
-    width: 75%;
-    min-height: 400px;
-    background-color: lightgray;
-    float: left;
-        position: relative;
-        left: 12%;
-    text-align: center;
-    line-height: 400px;
-  }
-  
-  .clearfix::after {
-    content: "";
-    display: block;
-    clear: both;
-  }
-  
-  #footer-div {
-    width: 100%;
-    min-height: 50px;
-    background-color: lightgray;
-    text-align: center;
-    line-height: 50px;
-  }
-  
-  #wrapper-div {
-    width: 80%;
-    background-color: aqua;
-    margin: auto;
-  }
+}
+
+.header {
+  background-color: lightgray;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.control-group {
+  min-height: 50px;
+  background-color: rgb(78, 33, 191);
+  text-align: center;
+}
+
+.nav-div {
+  width: 100%;
+  min-height: 50px;
+  background-color: lightgray;
+  text-align: center;
+  line-height: 30px;
+}
+
+.header-banner-div {
+  width: 100%;
+  background-color: lightgray;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 50px;
+}
+
+.main-div {
+  width: 100%;
+  min-height: 400px;
+  background-color: gray;
+  margin-bottom: 10px;
+}
+
+.control-settings {
+  margin-left: 65px;
+}
+
+.bodyarea-div {
+  background-color: rgb(110, 33, 33);
+  text-align: center;
+  padding: 100px;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.footer-div {
+  width: 100%;
+  min-height: 50px;
+  background-color: lightgray;
+  text-align: center;
+  line-height: 50px;
+}
+
+.container {
+  width: 1085px;
+  background-color: #ccc;
+  margin: 0 auto;
+}
+
+.fluid-container {
+  background-color: #ffffff; 
+}
+
+.card-group {
+  background-color: #ffffff;
+  display: flex;
+  gap: 35px;
+  margin-bottom: 35px;
+}
+
+.card {
+  padding: 50px;
+  background-color: rgb(205, 226, 21);
+  text-align: center;
+  display: flex;
+}
