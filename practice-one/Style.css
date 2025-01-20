@@ -53,9 +53,12 @@
 
 /* Search */
 .search-bar {
+  min-height: 50px;
+  background-color: rgb(57, 56, 59);
   display: flex;
   justify-content: center;
-  margin: 32px 0;
+  align-items: flex-end;
+
 }
 
 .controls {
