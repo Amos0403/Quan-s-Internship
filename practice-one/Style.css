@@ -3,33 +3,29 @@
   padding: 0px;
   box-sizing: border-box;
   font-family: Arial;
-  flex: auto;
-}
-
-.header-wrapper {
-  background-color: rgb(40, 214, 51);
   
 }
 
-.header {
-  background-color: lightgray;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  text-align: center;
+.fluid-container {
+  background-color: #ffffff; 
 }
 
-.control-group {
-  min-height: 50px;
-  background-color: rgb(78, 33, 191);
-  text-align: center;
-}
-
-.nav-div {
+.header-wrapper {
+  top: 0px;
   width: 100%;
-  min-height: 50px;
-  background-color: lightgray;
-  text-align: center;
-  line-height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(15, 233, 62);
+  border-bottom: 1px solid rgb(228, 228, 228);
+  height: 64px;
+  
+}
+
+.container {
+  width: 1085px;
+  background-color: #ccc;
+  margin: 0 auto;
 }
 
 .header-banner-div {
@@ -40,11 +36,26 @@
   padding-bottom: 50px;
 }
 
-.main-div {
-  width: 100%;
-  min-height: 400px;
-  background-color: gray;
-  margin-bottom: 10px;
+.search-bar-div {
+  display: flex;
+    align-items: center;
+    gap: 16px;
+    width: 650px;
+    height: 56px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 0px 20px;
+    margin: 32px auto;
+    cursor: text;
+    box-shadow: rgba(60, 64, 67, 0.32) 0px 1px 2px, rgba(60, 64, 67, 0.15) 0px 2px 6px, rgba(0, 0, 0, 0.1) 0px 1px 8px;
+}
+
+.control-group {
+  min-height: 50px;
+  background-color: rgb(78, 33, 191);
+  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
 .control-settings {
@@ -55,30 +66,6 @@
   background-color: rgb(110, 33, 33);
   text-align: center;
   padding: 100px;
-}
-
-.clearfix::after {
-  content: "";
-  display: block;
-  clear: both;
-}
-
-.footer-div {
-  width: 100%;
-  min-height: 50px;
-  background-color: lightgray;
-  text-align: center;
-  line-height: 50px;
-}
-
-.container {
-  width: 1085px;
-  background-color: #ccc;
-  margin: 0 auto;
-}
-
-.fluid-container {
-  background-color: #ffffff; 
 }
 
 .card-group {
@@ -92,5 +79,46 @@
   padding: 50px;
   background-color: rgb(205, 226, 21);
   text-align: center;
+  position: relative;
+    height: 178px;
+    width: 100%;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 16px;
+    height: 204px;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.5
+}
+
+.footer-container {
+  padding: 10px 20px;            /* Optional padding for spacing */
+  background-color: #9e1775;
+}
+
+.footer-div {
+  min-height: 50px;
+  background-color: lightgray;
+  text-align: center;
+  width: 100%;
+  margin-top: 32px auto;
   display: flex;
+  align-items: center;
+}
+
+.num-bar {
+  display: flex;
+  gap: 10px;
+}
+
+.text-bar {
+  display: flex;
+  gap: 10px;
+  margin-left: 440px;
 }
