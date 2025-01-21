@@ -1,1 +1,7 @@
-
+@import url('reset.css');
+@import url('layout.css');
+@import url('header.css');
+@import url('banner.css');
+@import url('search.css');
+@import url('cards.css');
+@import url('footer.css');
