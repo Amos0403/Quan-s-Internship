@@ -1,10 +1,25 @@
 /* HEADER COMPONENT STYLES */
+
+/* Import the custom font */
+@font-face {
+    font-family: 'Roboto';
+    src: url('../../assets/fonts/Roboto-Black.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Use the image as the background for the header */
 .header {
-    background-color: #3498db;
+    background-image: url('../../assets/images/image_#1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     color: #ffffff;
     padding: 20px;
     text-align: center;
-  }
+    font-family: 'Roboto', sans-serif; /* Apply custom font */
+}
+
   
   .header__title {
     font-size: 2rem;
