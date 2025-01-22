@@ -1,1 +1,30 @@
-/* Header-specific styles */
+/* HEADER COMPONENT STYLES */
+.header {
+    background-color: #3498db;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .header__title {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .header__nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .header__nav-item {
+    margin: 0;
+  }
+  
+  .header__nav-link {
+    color: #ffffff;
+    font-weight: bold;
+  }
