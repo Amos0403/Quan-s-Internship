@@ -1,0 +1,30 @@
+:root {
+  /* Colors */
+  --primary-bg: #fff;
+  --primary-text: #202124;
+  --secondary-text: #909090;
+  --link-color: #2e6ef5;
+  --border-color: #e4e4e4;
+  --chip-hover-bg: #909090;
+  --chip-hover-text: #fff;
+
+  /* Typography */
+  --font-family: 'Roboto', Helvetica, Arial, sans-serif;
+  --font-size-small: 14px;
+  --font-size-medium: 16px;
+  --font-size-large: 20px;
+  --font-size-xl: 45px;
+
+  /* Font Weights */
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+
+  /* Spacing */
+  --spacing-small: 8px;
+  --spacing-medium: 16px;
+  --spacing-large: 24px;
+
+  /* Border Radius */
+  --border-radius: 8px;
+}
