@@ -1,12 +1,20 @@
 :root {
+  /* Colors Name */
+  --white: #fff;
+  --black: #202124;
+  --gray: #909090;
+  --blue: #2e6ef5;
+  --light-gray: #e4e4e4;
+  --low-white: #f8f7f5;
+
   /* Colors */
-  --primary-bg: #fff;
-  --primary-text: #202124;
-  --secondary-text: #909090;
-  --link-color: #2e6ef5;
-  --border-color: #e4e4e4;
-  --chip-hover-bg: #909090;
-  --chip-hover-text: #fff;
+  --primary-bg: var(--white);
+  --primary-text: var(--black);
+  --secondary-text: var(--gray);
+  --link-color: var(--blue);
+  --border-color: var(--light-gray);
+  --chip-hover-bg: var(--gray);
+  --chip-hover-text: var(--white);
 
   /* Typography */
   --font-family: 'Roboto', Helvetica, Arial, sans-serif;

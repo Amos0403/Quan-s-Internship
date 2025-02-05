@@ -1,9 +1,5 @@
-/* Import base styles */
-@import url('./bases/reset.css');
-
-/* Import layout styles */
-@import url('./layout/header.css');
-@import url('./layout/footer.css');
-
-/* Import component styles */
-@import url('./components/buttons.css');
+@import url(../styles/abstracts/all.css);
+@import url(../styles/base/all.css);
+@import url(../styles/components/all.css);
+@import url(../styles/layouts/all.css);
+@import url(../styles/pages/all.css);
