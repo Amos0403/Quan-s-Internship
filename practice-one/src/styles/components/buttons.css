@@ -1,13 +1,16 @@
 .secondary-button {
-    width: 116px;
-    height: 48px;
-    padding: 11px 24px;
-    background: var(--white);
-    color: var(--gray);
-    font-size: var(--font-size-medium);
-    font-weight: var(--font-weight-bold);
-    border: 1px solid var(--light-gray);
-  }
+  width: 116px;
+  height: 48px;
+  padding: 11px 24px;
+  background: var(--white);
+  color: var(--gray);
+  font-size: var(--font-size-medium);
+  font-style: normal;
+  font-weight: bold;
+  border: 1px solid var(--light-gray);
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  cursor: pointer;
+}
 
 .chip-button{
   width: fit-content;
