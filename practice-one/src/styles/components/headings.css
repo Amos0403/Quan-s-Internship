@@ -2,6 +2,7 @@
   font-size: var(--font-size-xl);
   font-weight: bold;
   color: var(--black);
+  font-family: Roboto, Helvetica, Arial, sans-serif;
 }
 
 .sub-heading {
