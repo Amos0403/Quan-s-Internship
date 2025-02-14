@@ -1,48 +1,38 @@
 .category-nav {
-    background-color: var(--primary-bg);
-    border-bottom: 1px solid var(--border-color);
-    padding: var(--spacing-medium) 0;
-    position: sticky;
-    top: 0;
-    z-index: 100;
-  }
-  
-  .category-buttons {
-    display: flex;
-    gap: var(--spacing-medium);
-    padding: 0 var(--spacing-large);
-    overflow-x: auto;
-    margin: 0;
-  }
-  
-  .category-btn {
-    background: transparent;
-    border: none;
-    border-radius: 20px;
-    color: var(--secondary-text);
-    cursor: pointer;
-    font-family: var(--font-family);
-    font-size: var(--font-size-small);
-    font-weight: var(--font-weight-medium);
-    padding: var(--spacing-small) var(--spacing-medium);
-    white-space: nowrap;
-    transition: all 0.2s ease;
-    /* Remove default button styles */
-    appearance: none;
-    -webkit-appearance: none;
-  }
-  
-  .category-btn:hover {
-    background-color: var(--chip-hover-bg);
-    color: var(--chip-hover-text);
-  }
-  
-  .category-btn.active {
-    background-color: var(--black);
-    color: var(--white);
-  }
-  
-  .more-btn {
-    color: var(--link-color);
-    font-weight: var(--font-weight-bold);
-  }
+  background-color: var(--primary-bg);
+  border-bottom: 1px solid var(--border-color);
+  padding: var(--spacing-medium);
+}
+
+.category-buttons {
+  display: flex;
+  gap: var(--spacing-medium);
+  padding: 0 var(--spacing-large);
+}
+
+.category-btn {
+  background: transparent;
+  border: none;
+  border-radius: 20px;
+  color: var(--secondary-text);
+  cursor: pointer;
+  font-family: var(--font-family);
+  font-size: var(--font-size-small);
+  font-weight: var(--font-weight-medium);
+  padding: var(--spacing-small) var(--spacing-medium);
+}
+
+.category-btn:hover {
+  background-color: var(--chip-hover-bg);
+  color: var(--chip-hover-text);
+}
+
+.category-btn.active {
+  background-color: var(--black);
+  color: var(--white);
+}
+
+.more-btn {
+  color: var(--link-color);
+  font-weight: var(--font-weight-bold);
+}
