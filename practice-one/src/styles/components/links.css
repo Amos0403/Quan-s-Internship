@@ -1,7 +1,11 @@
 .footer-link {
   color: var(--gray);
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
   font-size: 16px;
   line-height: 1.5;
+  text-decoration: none;
 }
 
 .link {
