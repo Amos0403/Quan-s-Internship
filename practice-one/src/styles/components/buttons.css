@@ -10,7 +10,7 @@
   border: 1px solid var(--light-gray);
   font-family: Roboto, Helvetica, Arial, sans-serif;
   cursor: pointer;
-}
+  }
 
 .chip-button{
   width: fit-content;
@@ -36,5 +36,4 @@
   color: var(--gray);
   background: var(--white);
   border: 1px solid var(--light-gray);
-}  
-  
+}
