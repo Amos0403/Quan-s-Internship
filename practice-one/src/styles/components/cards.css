@@ -11,7 +11,9 @@
 
 .card-title {
   display: flex;          
-  align-items: center;                
+  align-items: center;   
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  font-size: 18px;     
 }
 
 .card-logo {
@@ -22,6 +24,8 @@
 
 .card-content {
   padding-top: 16px;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  color : var(--black);
 }
 
 .card-number {
