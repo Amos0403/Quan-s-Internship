@@ -6,12 +6,22 @@
   border-radius: 10px;
   display: flex;
   flex-direction: column;
+  
+}
+
+.card-title {
+  display: flex;          
+  align-items: center;                
 }
 
 .card-logo {
-  width: 40px; 
+  width: 40px;
   height: 40px;
-  margin-right: 10px;
+  margin-right: 10px;       
+}
+
+.card-content {
+  padding-top: 16px;
 }
 
 .card-number {
