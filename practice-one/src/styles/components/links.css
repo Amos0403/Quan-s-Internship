@@ -1,0 +1,25 @@
+.footer-link {
+  color: var(--gray);
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.5;
+  text-decoration: none;
+}
+
+.link {
+  color: var(--blue);
+  font-weight: 500;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 1.5;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  text-decoration: none;
+}
+
+.secondary-link {
+  color: var(--gray);
+  font-size: 16px;
+  line-height: 1.5;
+}
