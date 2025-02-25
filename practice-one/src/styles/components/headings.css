@@ -1,0 +1,14 @@
+.primary-heading {
+  font-size: var(--font-size-xl);
+  font-weight: bold;
+  color: var(--black);
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  text-align: center;
+}
+
+.sub-heading {
+  font-size: var(--font-size-large);
+  font-weight: var(--font-weight-medium);
+  color: var(--black);
+  text-align: center;
+}

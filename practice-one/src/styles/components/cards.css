@@ -1,0 +1,41 @@
+.course-card {
+  width: 337px;
+  border: 1px solid var(--light-gray);
+  background: var(--white);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-title {
+  display: flex;          
+  align-items: center;   
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  font-size: 18px;     
+}
+
+.card-logo {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;       
+}
+
+.card-content {
+  padding-top: 16px;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  color : var(--black);
+}
+
+.card-number {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  border-radius: 25px;
+  padding: 0px 16px;
+  background: rgba(32, 33, 36, 0.66);
+  color: rgb(255, 255, 255);
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  text-align: center;
+}
