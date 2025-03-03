@@ -4,6 +4,8 @@
   color: var(--black);
   font-family: Roboto, Helvetica, Arial, sans-serif;
   text-align: center;
+  background-color: rgb(248, 247, 245);
+  padding-top: 30px; 
 }
 
 .sub-heading {
@@ -11,4 +13,5 @@
   font-weight: var(--font-weight-medium);
   color: var(--black);
   text-align: center;
+  background-color: rgb(248, 247, 245); 
 }
