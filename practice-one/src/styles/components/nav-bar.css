@@ -1,17 +1,14 @@
-.category-nav {
-  background-color: var(--primary-bg);
-  border-bottom: 1px solid var(--border-color);
-  padding: var(--spacing-medium);
-}
-
 .category-buttons {
-  display: flex;
   gap: var(--spacing-medium);
-  padding: 0 var(--spacing-large);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  height: fit-content;
+  padding-top: 60px;
 }
 
 .category-btn {
-  background: transparent;
+  background: var(--white);
   border: 1px solid var(--light-gray);
   border-radius: 20px;
   color: var(--secondary-text);
