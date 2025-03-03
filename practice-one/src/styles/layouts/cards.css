@@ -1,11 +1,11 @@
 /* Card */
 .card-wrapper {
-  background-color: rgb(110, 33, 33);
+  background-color: rgb(248, 247, 245);
   padding-top: 20px;
 }
 
 .card-row {
-  background-color: var(--white);
+  background-color: rgb(248, 247, 245);
   display: flex;
   gap: 35px;
   margin-bottom: 35px;
