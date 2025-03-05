@@ -39,3 +39,12 @@
   font-family: Roboto, Helvetica, Arial, sans-serif;
   text-align: center;
 }
+
+.card-members{
+  padding-top: 16px; 
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+
+.card-fee {
+  font-weight: 600;
+}
