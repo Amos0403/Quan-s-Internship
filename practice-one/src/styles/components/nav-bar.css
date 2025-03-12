@@ -1,0 +1,30 @@
+.category-buttons {
+  gap: var(--spacing-medium);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  height: fit-content;
+  padding-top: 60px;
+}
+
+.category-btn {
+  background: var(--white);
+  border: 1px solid var(--light-gray);
+  border-radius: 20px;
+  color: var(--secondary-text);
+  cursor: pointer;
+  font-family: var(--font-family);
+  font-size: var(--font-size-small);
+  font-weight: var(--font-weight-medium);
+  padding: var(--spacing-small) var(--spacing-medium);
+}
+
+.category-btn:hover {
+  background-color: var(--chip-hover-bg);
+  color: var(--chip-hover-text);
+}
+
+.category-btn.active {
+  background-color: var(--gray);
+  color: var(--white);
+}

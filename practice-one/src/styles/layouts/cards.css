@@ -1,0 +1,19 @@
+/* Card */
+.card-wrapper {
+  background-color: rgb(248, 247, 245);
+  padding-top: 20px;
+}
+
+.card-row {
+  background-color: rgb(248, 247, 245);
+  display: flex;
+  gap: 35px;
+  margin-bottom: 35px;
+}
+
+.card {
+  padding: 50px;
+  background-color: rgb(205, 226, 21);
+  text-align: center;
+  flex: auto;
+}
